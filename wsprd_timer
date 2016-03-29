@@ -1,0 +1,12 @@
+   0.09    0.13    0.43    0.13    0.01    0.01    0.81
+
+Code segment        Seconds   Frac
+-----------------------------------
+readwavfile           0.09    0.11
+Coarse DT f0 f1       0.13    0.16
+sync_and_demod(0)     0.43    0.54
+sync_and_demod(1)     0.13    0.16
+sync_and_demod(2)     0.01    0.01
+Fano decoder          0.01    0.02
+-----------------------------------
+Total                 0.81    1.00
